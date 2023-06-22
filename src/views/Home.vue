@@ -1,6 +1,11 @@
 <template>
   <div class="Home">
-    <RouterLink class="route-class" v-for="item in routers" :to="item">
+    <RouterLink
+      class="route-class"
+      v-for="item in routers"
+      :key="item"
+      :to="item"
+    >
       <button>{{ item }} 页面</button>
     </RouterLink>
   </div>

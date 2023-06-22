@@ -1,12 +1,9 @@
 <template>
-  <div class='Register'>
-注册的页面
-  </div>
+  <div class="Register">注册的页面</div>
 </template>
 
 <script setup lang="ts">
-import {  } from 'vue'
+import {} from 'vue'
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
